@@ -19,12 +19,13 @@ using Newtonsoft.Json;
 using System.Linq;
 using System.Reflection;
 using Microsoft.Extensions.CommandLineUtils;
+using System.Collections;
 
 namespace ConsoleApplication
 {
     public class Program
     {
-        private static string FILE_PATH = "/Users/williamroscoe/Will/Code/shareddata/"; //.GetFolderPath(Environment.SpecialFolder.Personal);
+        private static string FILE_PATH = Environment.GetEnvironmentVariable("HOME") + "/Will/Code/shareddata/";
         private static string ENCRYPTEDKEYS_FILENAME = FILE_PATH + "totp_encrypted.txt";
         private static int DEFAULT_TOTP_DIGITS = 6;
 
