@@ -13,11 +13,11 @@ The data file is an encrypted json file containing the totp data
 2. Add an initial totp item using: -pw {password to encrypt/decrypt the data file } -a {name of app i.e. 'Google'} {Base32 secret text} [Number of totp digits (defaults to 6)]
 
 ## Basic usage ##
-To view totp tokens: -pw {password}
-Add an item: -pw {password to encrypt/decrypt the data file } -a {name of app i.e. 'Google'} {Base32 secret text} [Number of totp digits (defaults to 6)]
-Edit item: -pw -u -id {ID of item} [-title {Name of app}] [-secret {2FA secret}] [-digits {Number of digits}]
-Remove an totp item: -pw {password} -del -id {ID of app - ID is shown in the list}
-Update password: -pw {password} -pu {new password}
-See help: -hh
+* To view totp tokens: -pw {password}
+* Add an item: -pw {password to encrypt/decrypt the data file } -a {name of app i.e. 'Google'} {Base32 secret text} [Number of totp digits (defaults to 6)]
+* Edit item: -pw -u -id {ID of item} [-title {Name of app}] [-secret {2FA secret}] [-digits {Number of digits}]
+* Remove an totp item: -pw {password} -del -id {ID of app - ID is shown in the list}
+* Update password: -pw {password} -pu {new password}
+* See help: -hh
 
 
