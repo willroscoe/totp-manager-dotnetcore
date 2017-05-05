@@ -1,12 +1,22 @@
 # A .NET Core cross-platform console app - TOTP (2FA) Manager with encrypted file storage
 
-This system requires the 2FA Base32 secret text which is available (along with a QR code) when you setup 2FA with an application.
+This app outputs time-based 2FA tokens including the number of remaining seconds.
+
+## Example output
+
+    ID     TITLE       TOKEN
+    1:     Google      437285    Remaining Secs: 25
+    2:     Hotmail     783345    Remaining Secs: 25
+    3:     Github      637234    Remaining Secs: 25
+
+
+This app requires the 2FA Base32 secret text which is available (along with a QR code) when you setup 2FA with an application.
 
 Encryption: AES (MODE_CBC) with HMAC authentication based on https://gist.github.com/jbtule/4336842
 
 The encrypted data file is compatible with a Python version of this app at: https://gist.github.com/bifter/9f336911c83cbad34eba502850272c91
 
-The data file is an encrypted json file containing the totp data
+The data file is an encrypted json file containing the totp data.
 
 ## Setup
 1. Install .NET core if not already present on your system https://www.microsoft.com/net/core
