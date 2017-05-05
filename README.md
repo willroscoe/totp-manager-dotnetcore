@@ -14,7 +14,7 @@ This app requires the 2FA Base32 secret text which is available (along with a QR
 
 Encryption: AES (MODE_CBC) with HMAC authentication based on https://gist.github.com/jbtule/4336842
 
-The encrypted data file is compatible with a Python version of this app at: https://gist.github.com/bifter/9f336911c83cbad34eba502850272c91
+The encrypted data file is compatible with a Python version of this app at: https://github.com/bifter/totp-manager-python
 
 The data file is an encrypted json file containing the totp data.
 
