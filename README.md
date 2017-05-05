@@ -1,4 +1,4 @@
-# A .NET Core cross-platform console app - TOTP (2FA) Manager with encrypted file storage
+# A .NET Core cross-platform console app - TOTP (2FA) Token Manager with encrypted file storage
 
 This app outputs time-based 2FA tokens including the number of remaining seconds.
 
