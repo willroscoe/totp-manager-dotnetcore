@@ -25,9 +25,10 @@ The data file is an encrypted json file containing the totp data.
 
 ## Basic usage
 * To view totp tokens: -pw {password}
-* Add an item: -pw {password to encrypt/decrypt the data file } -a {name of app i.e. 'Google'} {Base32 secret text} [Number of totp digits (defaults to 6)]
-* Edit item: -pw -u -id {ID of item} [Optional -title {Name of app}] [Optional -secret {2FA Base32 secret}] [Optional -digits {Number of digits}]
+* Add an item: -pw {password} -a {name of app i.e. 'Google'} {Base32 secret text} [Number of totp digits (defaults to 6)]
+* Edit item: -pw {password} -u -id {ID of item} [Optional -title {Name of app}] [Optional -secret {2FA Base32 secret}] [Optional -digits {Number of digits}]
 * Remove an totp item: -pw {password} -del -id {ID of app - ID is shown in the list}
+* Display unencrypted totp data i.e. 2FA secrets etc
 * Update password: -pw {password} -pu {new password}
 * See help: -hh
 
