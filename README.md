@@ -20,4 +20,8 @@ The data file is an encrypted json file containing the totp data
 * Update password: -pw {password} -pu {new password}
 * See help: -hh
 
+## Source ##
+Source code can be obtained with
+> git clone --recursive https://github.com/bifter/totp-manager-dotnetcore.git
+
 
