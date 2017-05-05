@@ -1,4 +1,4 @@
-#A .NET Core cross-platform console app - TOTP (2FA) Manager with encrypted file storage#
+# A .NET Core cross-platform console app - TOTP (2FA) Manager with encrypted file storage #
 
 This system requires the 2FA Base32 secret text which is available (along with a QR code) when you setup 2FA with an application.
 
