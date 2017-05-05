@@ -1,4 +1,4 @@
-# A .NET Core cross-platform console app - TOTP (2FA) Manager with encrypted file storage #
+# A .NET Core cross-platform console app - TOTP (2FA) Manager with encrypted file storage
 
 This system requires the 2FA Base32 secret text which is available (along with a QR code) when you setup 2FA with an application.
 
@@ -8,11 +8,11 @@ The encrypted data file is compatible with a Python version of this app at: http
 
 The data file is an encrypted json file containing the totp data
 
-## Setup ##
+## Setup
 1. Update the FILE_PATH variable to the path you want the data file to be stored in.
 2. Add an initial totp item using: -pw {password to encrypt/decrypt the data file } -a {name of app i.e. 'Google'} {Base32 secret text} [Optional {Number of totp digits (defaults to 6)}]
 
-## Basic usage ##
+## Basic usage
 * To view totp tokens: -pw {password}
 * Add an item: -pw {password to encrypt/decrypt the data file } -a {name of app i.e. 'Google'} {Base32 secret text} [Number of totp digits (defaults to 6)]
 * Edit item: -pw -u -id {ID of item} [Optional -title {Name of app}] [Optional -secret {2FA secret}] [Optional -digits {Number of digits}]
@@ -20,8 +20,8 @@ The data file is an encrypted json file containing the totp data
 * Update password: -pw {password} -pu {new password}
 * See help: -hh
 
-## Source ##
+## Source
 Source code can be obtained with
-> git clone --recursive https://github.com/bifter/totp-manager-dotnetcore.git
+    git clone --recursive https://github.com/bifter/totp-manager-dotnetcore.git
 
 
