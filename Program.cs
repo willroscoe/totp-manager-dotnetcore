@@ -7,7 +7,7 @@ Encryption: AES (MODE_CBC) with HMAC authentication based on https://gist.github
 This work (A TOTP Manager with encrypted file storage), is free of known copyright restrictions.
 http://creativecommons.org/publicdomain/mark/1.0/ 
 
-BASIC USAGE:
+BASIC USAGE: 
 Display list of saved totp codes: -pw {password}
 Add new totp secret: -pw {password} -a {title} {base32 totp secret}
 */
